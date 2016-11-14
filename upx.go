@@ -53,6 +53,7 @@ func main() {
 						}
 					}
 
+					cmd := c.Command.FullName()
 					needUser := true
 					if cmd == "login" || cmd == "logout" ||
 						cmd == "switch" || cmd == "services" || cmd == "auth" {
